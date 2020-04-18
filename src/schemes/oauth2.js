@@ -1,9 +1,9 @@
+import defu from 'defu'
+import nanoid from 'nanoid'
 import { encodeQuery, parseQuery, normalizePath } from '../utils'
 import RefreshController from '../inc/refresh-controller'
 import RequestHandler from '../inc/request-handler'
 import ExpiredAuthSessionError from '../inc/expired-auth-session-error'
-import defu from 'defu'
-import nanoid from 'nanoid'
 
 const isHttps = process.server ? require('is-https') : null
 

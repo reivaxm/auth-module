@@ -1,6 +1,6 @@
+import { getProp } from '../utils'
+import RequestHandler from '../inc/request-handler'
 import defu from 'defu'
-import { getProp } from '../utilities'
-import RequestHandler from '../requestHandler'
 
 export default class LocalScheme {
   constructor (auth, options) {

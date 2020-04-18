@@ -1,1 +1,10 @@
 *.tmpl
+node_modules
+.idea
+*.log*
+.nuxt
+.DS_STORE
+coverage
+dist
+package-lock.json
+_book

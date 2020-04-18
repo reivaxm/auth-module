@@ -1,7 +1,7 @@
-import jwtDecode, { InvalidTokenError } from 'jwt-decode'
 import { addTokenPrefix } from '../utils'
 import TokenStatus from './token-status'
 import RequestHandler from './request-handler'
+import jwtDecode, { InvalidTokenError } from 'jwt-decode'
 
 export default class Token {
   constructor (auth) {

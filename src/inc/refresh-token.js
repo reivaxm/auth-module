@@ -1,6 +1,6 @@
+import jwtDecode, { InvalidTokenError } from 'jwt-decode'
 import { addTokenPrefix } from '../utils'
 import TokenStatus from './token-status'
-import jwtDecode, { InvalidTokenError } from 'jwt-decode'
 
 export default class RefreshToken {
   constructor (auth) {

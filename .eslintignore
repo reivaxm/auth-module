@@ -8,3 +8,4 @@ coverage
 dist
 package-lock.json
 _book
+module/plugin.tmpl.js
